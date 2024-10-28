@@ -1,3 +1,4 @@
 console.log('hello node js');
 
-const pin = 
+const pin = process.env.pin;
+console.log(pin);
